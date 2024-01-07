@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+.container-1 {
+    background-image: url("https://assets.ccbp.in/frontend/intermediate-rwd/design-section-sm-bg.png");
+    background-size: cover;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bulb-image {
+    height: 70px;
+    width: 70px;
+}
+
+.container-2 {
+    background-color: #12022f;
+    background-size: cover;
+    height: 80vh;
+    padding: 10px;
+}
+
+.main-heading {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 20px;
+    width: 90%;
+}
+
+.sub-container-1 {
+    background-color: #ffffff;
+    border-radius: 10px;
+    height: 60vh;
+    width: 100%;
+    padding: 20px;
+}
+
+.sub-image-1 {
+    height: 70px;
+    width: 70px;
+    margin: 10px;
+}
+
+.sub-container-card {
+    display: flex;
+}
+
+.sub-container-card-heading {
+    color: #12022f;
+    font-family: "Roboto";
+}
+
+.sub-container-card-paragraph {
+    color: #7b8794;
+    font-family: "Roboto";
+}
+
+@media (min-width:768px) {
+    .main-container {
+        display: flex;
+    }
+
+    .container-1 {
+        background-image: url("https://assets.ccbp.in/frontend/intermediate-rwd/design-section-lg-bg.png");
+        background-size: cover;
+        height: 100vh;
+        width: 40%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container-2 {
+        background-color: #12022f;
+        background-size: cover;
+        height: 100vh;
+        width: 60%;
+        padding: 10px;
+    }
+
+    .main-heading {
+        color: #ffffff;
+        font-family: "Roboto";
+        font-size: 35px;
+        width: 90%;
+    }
+}
